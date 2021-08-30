@@ -8,7 +8,7 @@ const changeForm = (id) => {
         '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTPJVGg2mAJXXLxpjY_LhxCmxo6mvTvGdOfx-ZrqvDtVitgw/viewform?embedded=true" width="640" height="912" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>';
       break;
     case "google-ad":
-      formLocation.innerHTML = "<p>google ad</p>";
+      formLocation.innerHTML = '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevHVx5KfUncIDOaqt0Js_f17WaY4di4lv92qG14pF_b0umnA/viewform?embedded=true" width="640" height="912" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>';
       break;
     case "youtube-video":
       formLocation.innerHTML = "<p>youtube video</p>";

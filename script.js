@@ -22,5 +22,4 @@ const changeForm = (id) => {
     default:
       formLocation.innerHTML = "";
   }
-  console.log(selectValue);
 };

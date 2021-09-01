@@ -112,6 +112,16 @@ h2 {
   }
 }
 
+@media (max-width: 390px) {
+    h1 {
+        font-size: 1.8rem !important;
+    }
+
+    h2 {
+        font-size: 1.4rem !important;
+    }
+  }
+
 #aside-message {
   display: none;
 }

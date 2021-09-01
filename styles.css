@@ -119,6 +119,10 @@ h2 {
 
     h2 {
         font-size: 1.4rem !important;
+        text-align: justify;
+    }
+    ul {
+        text-align: justify;
     }
   }
 

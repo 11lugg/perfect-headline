@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfect Headline - Coming Soon</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfect Headline - Click-worthy headlines at price you choose</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-
-<h1>
-    COMING SOON...
-</h1>
-<h2>
-    Please check back soon
-</h2> 
-
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <a id="button"></a>
+    <div id="logo">
+      <img src="assets/note.png" alt="perfect headline" />
+      <h1>Perfect Headline</h1>
+    </div>
+    <h2>
+      Create the perfect click-worthy headline and only pay what you think its
+      worth
+    </h2>
+    <ul>
+      <li>Simply choose the type of headline you want</li>
+      <li>Fill out the form</li>
+      <li>
+        Receive an email within 24 hours with your killer headline along with
+        details on how to pay
+      </li>
+      <li>Pay what you think its worth</li>
+    </ul>
+    <select
+      class="select-css"
+      name="form-select"
+      id="form-select"
+      onchange="changeForm(this)"
+    >
+      <option value="" disabled selected>Please Select...</option>
+      <option value="facebook-ad">Facebook Ads Headline</option>
+      <option value="google-ad">Google Ads Headline</option>
+      <option value="youtube-video">Youtube Video Title</option>
+      <option value="photo-post">Photo Post Captions</option>
+      <option value="email-subject">Email Subject Lines</option>
+    </select>
+    <section id="selected-form"></section>
+    <aside id="aside-message">
+      <em>Please scroll up after you submit your request</em>
+    </aside>
+  </body>
 </html>
